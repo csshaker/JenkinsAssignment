@@ -11,6 +11,13 @@ class AssignmentApplicationTests {
 	@Test
 	void contextLoads() {
 		assertEquals(10, 10);
+		assertEquals(15, AssignmentApplication.addition(10, 5));
+	}
+
+	@Test
+	void customTest() {
+		assertEquals(20, AssignmentApplication.addition(10, 10));
+		assertEquals(12, AssignmentApplication.addition(10, 2));
 	}
 
 }

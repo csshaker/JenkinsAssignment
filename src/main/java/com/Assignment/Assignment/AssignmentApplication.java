@@ -10,6 +10,7 @@ public class AssignmentApplication {
 		SpringApplication.run(AssignmentApplication.class, args);
 		printSomething("testing....");
 		test();
+		System.out.println("The sum is: "+ addition(10, 5));
 	}
 
 	public static void printSomething(String text) {
@@ -18,5 +19,9 @@ public class AssignmentApplication {
 
 	public static void test(){
 		System.out.println("test");
+	}
+
+	public static int addition(int number1, int number2) {
+		return number1 + number2;
 	}
 }
