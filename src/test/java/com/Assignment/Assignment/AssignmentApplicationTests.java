@@ -20,4 +20,9 @@ class AssignmentApplicationTests {
 		assertEquals(12, AssignmentApplication.addition(10, 2));
 	}
 
+	@Test
+	void multiplicationTest(){
+		assertEquals(50, AssignmentApplication.multiplication(10, 5));
+	}
+
 }
