@@ -11,6 +11,7 @@ public class AssignmentApplication {
 		printSomething("testing....");
 		test();
 		System.out.println("The sum is: "+ addition(10, 5));
+		System.out.println("The multiplication is: "+ multiplication(10, 5));
 	}
 
 	public static void printSomething(String text) {
@@ -23,5 +24,9 @@ public class AssignmentApplication {
 
 	public static int addition(int number1, int number2) {
 		return number1 + number2;
+	}
+
+	public static int multiplication(int number1, int number2) {
+		return number1 * number2;
 	}
 }
